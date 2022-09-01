@@ -13,21 +13,21 @@ function NavBar() {
 					<div className="header_links">
 						<ul className="d-flex m-auto">
 							<li className='nav-link'>
-								<a href="#">Stores</a>
+								<a href="/">Stores</a>
 							</li>
 							<li className='nav-link'>
-								<a href="#">Locations</a>
+								<a href="/">Locations</a>
 							</li>
 							<li className='nav-link'>
-								<a href="#" className='active'>Become a Shopper</a>
+								<a href="/" className='active'>Become a Shopper</a>
 							</li>
 						</ul>
 					</div>
 				</div>
 
 				<div className='nav_comp_btn'>
-					<a href="#" className="btn-1 mx-3">Sign in</a>
-					<a href="#" className="btn nav-btn">Sign up</a>
+					<a href="/" className="btn-1 mx-3">Sign in</a>
+					<a href="/" className="btn nav-btn">Sign up</a>
 				</div>
 			</div>
 		</nav>
