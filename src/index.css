@@ -1,13 +1,230 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+  font-family: SHPCFONT,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+/* ####### NAVBAR ######## */
+header {
+  background-color: #ffff;
+  position: sticky;
+}
+
+.navbar_comp {
+  padding: 0.75rem 0;
+  position: sticky !important;
+  
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: black;
+  font-size: 12.75px;
+  font-weight: 500;
+}
+
+.nav-link a:hover {
+  cursor: pointer;
+  color: #D92D20;
+} 
+
+.nav-link a.active {
+  color: #D92D20;
+}
+
+.nav-btn {
+  color: white !important;
+  background-color: #D92D20 !important;
+  border-radius: 100px !important;
+  padding: 1rem !important;
+  width: 130px !important;
+  min-height: 48px !important;
+  text-align: center;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+}
+
+.nav-btn:hover {
+  background-color: #C7352B !important;
+}
+
+.btn-1 {  
+  color: black;
+  text-decoration: none;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+}
+
+.btn-1:hover {
+  color: #D92D20 !important;
+  border: none;
+}
+
+
+/* ####### HERO SECTION ######## */
+section.hero_comp {
+  background-color: #D92D20;
+  color: #fff;
+  padding-top: 2.5rem;
+}
+
+.hero-img {
+  background-image: url('../src/asset/png/hero-image.png');
+  background-repeat: no-repeat;
+  background-position: right center;
+  /* background-color: black; */
+  min-width: 100%;
+  height: auto;
+  padding-bottom: 3rem;
+  padding-right: 6.5rem;
+  padding-left: 0rem;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+.hero-text p {
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+  width: 420px;
+  margin-top: 18px;
+}
+
+/* ####### CHOOSE STORE SECTION ######## */
+section.choose_store {
+  padding: 3.5rem 6.5rem;
+}
+
+.store-header {
+  font-size: 22.5px;
+  font-weight: 400;
+}
+
+.text-brand {
+  color: #D92D20;
+}
+
+.shop-list {
+  display: grid;
+  grid-template-columns: repeat(4,minmax(0,1fr));
+  gap: 1.25rem;
+
+}
+
+.store_img img {
+  background-color: rgb(249, 250, 251);
+  max-width: 100%;
+  height: auto;
+}
+
+.store_name h3 {
+  font-size: 13.5px;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: capitalize;
+}
+
+.store_option p {
+  font-size: 10.5px;
+  font-weight: 500;
+  line-height: 15px;
+}
+
+/* ####### Tags SECTION ######## */
+section.tag_section {
+  background-color: #D92D20;
+  color: white;
+  padding: 3.5rem 0;
+}
+
+.tag_heading {
+  font-size: 13.5px;
+  font-weight: 600;
+  line-height: 21px;
+}
+
+.tag_text {
+  font-size: 22.5px;
+  font-weight: 600;
+  line-height: 27px;
+  max-width: 504px;
+  margin-top: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ####### HOW IT WORKS SECTION ######## */
+section.how_it_works {
+  padding: 3.5rem 0;
+}
+
+.how_heading {
+  font-size: 22.5px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.how_cards {
+  display: flex;
+  justify-content: center;
+  line-height: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5rem;
+  max-width: 1460px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding: 0 6.5rem;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.how-card {
+  border-radius: 3px;
+  height: 430px;
+  width: 300px;
+  line-height: 18px;
+  background-color: rgb(249, 250, 251);
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.card_body {
+  padding: 18px;
+}
+
+.card_body h1 {
+  font-size: 22.5px;
+  font-weight: 600;
+  line-height: 27px;
+  margin-top: 15px;
+}
+
+.card_body p {
+  line-height: 18px;
+  margin-top: 30px;
+}
+
+.card_body_image.gif {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(254, 200, 75);
+  height: 240px;
+}
+
+.card_body_image.gif img {
+  vertical-align: middle;
+  height: 120px;
+  max-width: 100%;
+  margin-top: 50%;
 }

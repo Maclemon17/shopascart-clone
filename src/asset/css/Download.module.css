@@ -1,0 +1,16 @@
+.headingText {
+    font-size: 22.5px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.para {
+    color: rgb(71, 84, 103);
+    font-size: 13.5px;
+    line-height: 21px;
+    margin-top: 9px;
+}
+
+.img {
+    max-width: 100%;
+}
