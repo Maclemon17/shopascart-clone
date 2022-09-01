@@ -26,8 +26,8 @@ function Pricing() {
                     </div>
                 </div>
                 <div className="d-flex justify-content-center">
-                    <p className="foot_text d-flex justify-content-center">Deliveries under ₦5000 with or without a Shopascart+ membership will incur a ₦1800 fee and applicable taxes and service fees per order.</p>
-
+                    <p className="foot_text d-flex justify-content-center">Deliveries under ₦5000 with or without a 
+                    Shopascart+ membership will incur a ₦1800 fee and applicable taxes and service fees per order.</p>
                 </div>
             </div>
         </section>
