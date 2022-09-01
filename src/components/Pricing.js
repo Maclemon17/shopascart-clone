@@ -17,7 +17,7 @@ function Pricing() {
                             <h1>₦3000/month or ₦25000/year</h1>
                         </div>
                         <div className="pricing_card_body">
-                            <a href="#">
+                            <a href="/git">
                                 <button className='d-flex justify-content-center align-items-center w-100'>
                                     <span className='text-brand'>Get Shopascart Plus</span>
                                 </button>

@@ -6,6 +6,7 @@ import Tag from './components/Tag';
 import HowItWorks from './components/HowItWorks';
 import DownloadApp from './components/DownloadApp';
 import Pricing from './components/Pricing';
+import Faq from './components/Faq';
 
 function App() {
 	return (
@@ -17,6 +18,7 @@ function App() {
 			<HowItWorks />
 			<DownloadApp />
 			<Pricing />
+			<Faq />
 		</div>
 	);
 }
